@@ -1,5 +1,7 @@
 # Replication of “The Term Structure of Currency Carry Trade Risk Premia” (AER 2019)
 
+**TL;DR:** This repository replicates Lustig, Stathopoulos, and Verdelhan’s 2019 AER paper, *The Term Structure of Currency Carry Trade Risk Premia*, and confirms its core result that short-rate-driven FX carry premia are offset by local bond term premia as bond maturity rises; the paper’s data come mainly from G10 monthly Global Financial Data bond/T-bill/CPI series, Wright (2011) zero-coupon yield curves supplemented with Bloomberg sovereign curve data, and S&P sovereign ratings.
+
 This repository contains a full replication of **Lustig, Stathopoulos, and Verdelhan (2019)**, *American Economic Review*, focusing on the term structure of currency carry trade risk premia.  
 The project rebuilds every empirical component of the paper using reconstructed G10 interest rate, yield curve, bond return, and FX datasets (1975–2015), and validates the central empirical claims of the original study.
 
